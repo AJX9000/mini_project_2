@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+}
+
+.center_button {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 120px;
+    font-family: "Russo One", Arial, sans-serif;
+    font-size: 72px;
+    background-color: white;
+    color: red;
+    border: 6px solid #FF7777;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*text-align: center;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.circle1 {
+    position: absolute;
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.square1 {
+    position: absolute;
+    opacity: 0;
+    width: 85px;
+    height: 85px;
+    background-color: #61E4FF;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle2 {
+    position: absolute;
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.square2 {
+    position: absolute;
+    opacity: 0;
+    width: 85px;
+    height: 85px;
+    background-color: #F951FF;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle3 {
+    position: absolute;
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    background-color: mediumpurple;
+    border-radius: 50%;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.square3 {
+    position: absolute;
+    opacity: 0;
+    width: 85px;
+    height: 85px;
+    background-color: #67FF6C;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle4 {
+    position: absolute;
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border-radius: 50%;
+
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.square4 {
+    position: absolute;
+    opacity: 0;
+    width: 85px;
+    height: 85px;
+    background-color: #FFE692;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+@keyframes a {
+    0%      { rotation: 141deg; transform }
+}*/
